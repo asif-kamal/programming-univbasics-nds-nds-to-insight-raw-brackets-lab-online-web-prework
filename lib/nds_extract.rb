@@ -19,5 +19,5 @@ while row_index < nds.length do
 end
 row_index += 1
 end
-
+directors_gross_total
 end
