@@ -12,7 +12,7 @@ while row_index < nds.length do
   column_index = 0
   #binding.pry
   while column_index < nds[row_index][:movies].length do
-  directors_gross_total[nds[row_index][:name]] = [row_index][:movies][column_index][]
+  directors_gross_total[nds[row_index][:name]] = [row_index][:movies][column_index][:worldwide_gross]
   
   column_index_index += 1 
 end
